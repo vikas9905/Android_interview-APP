@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Android interview</string>
+    <string name="sq">Simple questions</string>
+    <string name="tq">Tough questions</string>
+    <string name="oth">See other Apps</string>
+    <string name="rt">Rate us</string>
+    <string name="XX">XX/</string>
+    <string name="YY">YY</string>
+    <string name="Ques">Question</string>
+    <string name="ans_btn">Press Button A for Answer</string>
+    <string name="title">Android Interview</string>
+    <string name="cat">Catego Questions</string>
+</resources>

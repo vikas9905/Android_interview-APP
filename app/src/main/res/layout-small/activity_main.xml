@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/button_state"
+        android:text="@string/sq"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/btn1"
+        android:layout_alignStart="@id/btn1"
+        android:layout_alignLeft="@id/btn1"
+        android:layout_alignEnd="@id/btn1"
+        android:layout_alignRight="@id/btn1"
+
+        android:layout_marginTop="14dp"
+
+        android:background="@drawable/button_state"
+        android:text="@string/tq"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/btn2"
+        android:layout_alignStart="@id/btn2"
+        android:layout_alignLeft="@id/btn2"
+        android:layout_alignEnd="@id/btn2"
+        android:layout_alignRight="@id/btn2"
+
+        android:layout_marginTop="14dp"
+
+        android:background="@drawable/button_state"
+        android:text="@string/oth"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/btn3"
+        android:layout_alignStart="@+id/btn3"
+        android:layout_alignLeft="@id/btn3"
+        android:layout_alignEnd="@id/btn3"
+        android:layout_alignRight="@id/btn3"
+
+        android:layout_marginTop="14dp"
+
+        android:background="@drawable/button_state"
+        android:text="@string/rt"
+        android:textSize="10sp" />
+
+</RelativeLayout>
